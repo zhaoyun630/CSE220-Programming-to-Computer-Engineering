@@ -1,0 +1,15 @@
+/* commmands for compiling and running */
+
+-MacBook-Pro-2:project4_YunZhao yzhao82$ gcc assembler.c funcLib.c -o a
+Yuns-MacBook-Pro-2:project4_YunZhao yzhao82$ ./a MiniMIPS_Fib_Labels.txt of.lsm
+Yuns-MacBook-Pro-2:project4_YunZhao yzhao82$ cat of.lsm 
+v2.0 raw
+2080F 21000 21801 22001 2DC00 3610E 26C01 29C00 29500 01A68 22401 2DC00 30005
+
+
+
+
+
+
+
+

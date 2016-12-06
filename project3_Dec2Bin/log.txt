@@ -1,0 +1,15 @@
+/* This is the log for my commands */
+
+-bash-3.2$ mkdir project3_YunZhao
+-bash-3.2$ cp dec2bin.c project3_YunZhao/
+-bash-3.2$ ls
+dec2bin     dec2bin.c	 dec2binV3.c  eg    project3_YunZhao  ts1.c
+dec2bin2.c  dec2binV1.c  dec2binV4.c  eg.c  ts
+-bash-3.2$ cd project3_YunZhao/
+-bash-3.2$ ls
+dec2bin.c
+-bash-3.2$ gcc dec2bin.c -o dec2bin
+-bash-3.2$ ./dec2bin 59
+The binary representation for integer 59 is: 11 1011 
+-bash-3.2$ ./dec2bin -59
+The binary representation for integer -59 is: 1111 1111 1111 1111 1111 1111 1100 0101 
